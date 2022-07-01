@@ -24,7 +24,7 @@
   padding: 0px 25px; /*Default top, bottom, left, and right padding was a lot.*/
 }
 .logo {
-  width: min(12vw, 200px); /*Needed to make logo responsive. Without it logo overlaps navbar.*/
+  width: min(5vw, 70px); /*Needed to make logo responsive. Without it logo overlaps navbar.*/
 }
 .resume {
   padding-top: 0.35em;
