@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+/*Changes the hamburger menu color when smaller than laptopn screen view*/
+.navbar-light .navbar-toggler-icon {
+  background-image:  url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(27, 192, 178, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
 body {
   margin: 0;
   display: flex;
@@ -116,9 +121,15 @@ section:last-child {
   border: 1px solid #1bc0b225;
   border-radius: 3px;
   width: 42vh;
-  height: 30vh;
+  height: 40vh;
   margin: 1vh;
   box-sizing: border-box;
+}
+.hobby p {
+  padding-top: 1.5em;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+  margin-bottom: 1em;
 }
 
 .youtube {
@@ -169,7 +180,6 @@ section:last-child {
   border-radius: 3%;
   height: 29em;
   width: 20em;
- 
 }
 .crest-pic:hover {
   position:relative;
@@ -240,6 +250,9 @@ section:last-child {
 
 /* Phone iphoneXR*/
 @media (max-width: 500px) {
+  body {
+    background-color: #0a192f;
+  }
   footer {
     display: none;
   }
@@ -253,7 +266,7 @@ section:last-child {
   }
   section:nth-child(2) {
     flex: 6;
-    background-color: hsl(172, 68%, 38%);
+    background-color: #0a192f;
   }
   section:last-child {
     display: none;
@@ -263,5 +276,38 @@ section:last-child {
   .about-me-container {
     display:block;
     padding-left: 50px;
+  }
+  .about-me p {
+    width: 84.7%;
+  }
+
+  .hobby p {
+    padding-top: 1.5em;
+    font-size: 0.9em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+  }
+
+  .crest img {
+    max-width: 35%;
+    max-height: 45%;
+    height: 20em;
+    width: 15em;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+  .crest img {
+    max-width: 50%;
+    max-height: 60%;
+  }
+  .hobby p {
+    padding-top: 1.5em;
+    font-size: 0.9em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
   }
 }

@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+/*Changes the hamburger menu color when smaller than laptopn screen view*/
+.navbar-light .navbar-toggler-icon {
+  background-image:  url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(27, 192, 178, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
 body {
   margin: 0;
   display: flex;
@@ -204,6 +209,9 @@ left: 50% and transform: translateX(-50%); puts a fixed div in the middle of pag
   main {
     flex: 1 0 100vh;
   }
+  .middle {
+    padding-top: 5.5em;
+  }
 
   section:first-child {
     display:none;
@@ -211,10 +219,29 @@ left: 50% and transform: translateX(-50%); puts a fixed div in the middle of pag
   }
   section:nth-child(2) {
     flex: 6;
-    background-color: #071830;
+    background-color: #0a192f;
   }
   section:last-child {
     display: none;
     flex: 0;
+  }
+  .intro-contact p {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .contact-me {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+  .middle {
+    padding-top: 8em;
+  }
+  .contact-me {
+    width: 80%;
+    height: 80%;
   }
 }
