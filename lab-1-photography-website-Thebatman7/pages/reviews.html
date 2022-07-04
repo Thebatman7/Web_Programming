@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <!--Before responsive design was a thing, mobile devices only had a desktop layout to work with.
+    To cope with this, they zoomed out to fit the entire desktop layout into the width of the screen,
+    letting the user interact with it by zooming in when necessary. This default behavior will prevent mobile devices from using our mobile layout. -->
+    <meta charset='UTF-8'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>Awesome Web Page</title>
+    <link rel='stylesheet' href='/css/reviews-styles.css'/>
+  </head>
+
+  <body>
+
+    <!--Needed for icons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <div class='menu-container'>
+      
+      <div class='logo'>
+        <a class='home-logo-link' href='../index.html'>
+          <img class='parker-logo' src="/images/parker-logo.png">
+        </a>
+      </div>
+
+      <div class='menu'>
+        <div class='home'><a class='home-link' href='../index.html'>Home</a></div>
+        <div class='portfolio'><a class='prof-link' href='portfolio.html'>Portfolio</a></div>
+        <div class='reviews'><a class='review-link active' href='reviews.html'>Reviews</a></div>
+        <div class='about'><a class='about-link' href='about.html'>About</a></div>
+      </div>
+
+    </div>
+
+
+   <div class='reviews-container'>
+     <div class='review first-review'>
+       <img src="/images/miles.jpg">
+       <p>
+         Peter is a great photographer. He has excellent observation to check all the details in a photograph.
+         He is able to observe every necessary detail before clicking a picture. 
+       </p>
+     </div>
+     <div class='review second-review'>
+      <img src="/images/spiderman.png">
+      <p>
+        In my opinion he is one of the best photographers out there. As my unofficial photographer he has done an excellent job.
+        He captures my heroism and what I stand for. I would definitely recommend.
+      </p>
+     </div>
+     <div class='review third-review'>
+      <img src="/images/venom.jpg">
+      <p>
+        He is a very good photographer. Although, I do not like his attitude he is alwasy happy and hopeful.
+        He can be hard to work with, but I would definitely recommend because the quality of his work is excellent.
+      </p>
+     </div>
+   </div>
+   
+
+    <div class='footer'>
+      <div class='footer-item footer-one'>
+        <a class='linkedin-link' href='https://www.linkedin.com/in/rembrandpardo/'>
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+      <div class='footer-item footer-two'>
+        <a class='git-link' href='https://github.com/BYUCS260/lab-1-photography-website-Thebatman7'>
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+      </div>
+      <div class='footer-item footer-three'>
+        <a class='twitter-link' href='https://twitter.com/rembrand_pardo'>
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
