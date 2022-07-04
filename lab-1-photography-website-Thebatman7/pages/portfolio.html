@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <!--Before responsive design was a thing, mobile devices only had a desktop layout to work with.
+    To cope with this, they zoomed out to fit the entire desktop layout into the width of the screen,
+    letting the user interact with it by zooming in when necessary. This default behavior will prevent mobile devices from using our mobile layout. -->
+    <meta charset='UTF-8'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>Awesome Web Page</title>
+    <link rel='stylesheet' href='/css/portfolio-styles.css'/>
+  </head>
+
+  <body>
+
+    <!--Needed for icons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <div class='menu-container'>
+      
+      <div class='logo'>
+        <a class='home-logo-link' href='../index.html'>
+          <img class='parker-logo' src="/images/parker-logo.png">
+        </a>
+      </div>
+
+      <div class='menu'>
+        <div class='home'><a class='home-link' href='../index.html'>Home</a></div>
+        <div class='portfolio'><a class='prof-link active' href='portfolio.html'>Portfolio</a></div>
+        <div class='reviews'><a class='review-link' href='reviews.html'>Reviews</a></div>
+        <div class='about'><a class='about-link' href='about.html'>About</a></div>
+      </div>
+
+    </div>
+
+
+    <div class='photo-grid-container'>
+
+      <div class='photo-grid'>
+        <div class='photo-grid-item first-item'>
+          <img src='/images/slc-temple.jpg'/>
+        </div>
+        <div class='photo-grid-item'>
+          <img src='/images/building.jpg'/>
+        </div>
+        <div class='photo-grid-item'>
+          <img src='/images/mazda.jpg'/>
+        </div>
+        <div class='photo-grid-item'>
+          <img src='/images/utah.jpg'/>
+        </div>
+        <div class='photo-grid-item'>
+          <img src='/images/space1.jpg'/>
+        </div>
+        <div class='photo-grid-item'>
+          <img src='/images/moon.jpg'/>
+        </div>
+        <div class='photo-grid-item'>
+          <img src='/images/buble.jpg'/>
+        </div>
+        <div class='photo-grid-item'>
+          <img src='/images/horse.jpg'/>
+        </div>
+        <div class='photo-grid-item'>
+          <img src='/images/cougar.jpg'/>
+        </div>
+      </div>
+    </div>
+
+
+    <div class='footer'>
+      <div class='footer-item footer-one'>
+        <a class='linkedin-link' href='https://www.linkedin.com/in/rembrandpardo/'>
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+      <div class='footer-item footer-two'>
+        <a class='git-link' href='https://github.com/BYUCS260/lab-1-photography-website-Thebatman7'>
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+      </div>
+      <div class='footer-item footer-three'>
+        <a class='twitter-link' href='https://twitter.com/rembrand_pardo'>
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -184,10 +184,26 @@ section:last-child {
   }
   section:nth-child(2) {
     flex: 6;
-    background-color: #071830;
+    background-color: #0a192f;
   }
   section:last-child {
     display: none;
     flex: 0;
+  }
+  .intro-projects p {
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+  }
+  .project {
+    width: 40%;
+    height: 50%;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+  .project {
+    width: 45%;
+    height: 50%;
   }
 }
