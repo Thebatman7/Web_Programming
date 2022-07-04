@@ -65,21 +65,21 @@
   .photo-grid {
     display: flex;
     flex-wrap: wrap;
+    height: auto;
     border: 2px solid #fbfdff;
     margin-top: 10px;
     margin-bottom: 20px;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
   }
   /*Added to display images without cropping.*/
   .photo-grid-item img {
-      height: 600px;
-      margin-left: 20px;
-      margin-right: 20px;
-      margin: 10px;
-      border-radius: 1%;
-      border: 2px solid #5d89ca;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 5px;
+    border-radius: 1%;
+    border: 2px solid #5d89ca;
   }
   .about-peter {
       display: flex;
@@ -97,7 +97,6 @@
     display: flex;
     justify-content: space-between;
     /*makes the footer stay below content*/
-    position: absolute;
     bottom: 0;
     width: 100%;
   }
