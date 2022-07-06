@@ -1,0 +1,22 @@
+<body>
+
+    <div id="app">
+      
+      <h1>Select a City</h1>
+      <!--Notice that we are going to capture the keyup event and will call 'fetchREST'-->
+      <form v-on:keyup.prevent="fetchREST">
+        <!--The model variable 'prefix' will contain the characters that have been typed into the box-->
+        <input type="text" v-model="prefix">
+      </form>
+
+      <ul>
+        <li v-for="item in cities">
+          {{ item.name }}
+        </li>
+      </ul>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
+    <script src="script.js"></script>
+</body>
