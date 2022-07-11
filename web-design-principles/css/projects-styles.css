@@ -132,9 +132,15 @@ section:last-child {
 .fa-calendar-alt {
   color: #e4a74dd5;
 }
+.fa-database {
+  color:rgba(16, 231, 88, 0.864)
+}
+.fa-microsoft {
+  color:rgb(20, 46, 216)
+}
 
 #theFooter {
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   width: 100%;
   height: auto;
@@ -150,7 +156,7 @@ section:last-child {
 .fa-github,
 .fa-twitter,
 .fa-facebook {
-  font-size: 0.7em;
+  font-size: 0.8em;
   vertical-align: middle;
 }
 
