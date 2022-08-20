@@ -17,8 +17,8 @@
     <meta charset='UTF-8'/>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
     <title>Rembrand Pardo</title>
-    <link rel='stylesheet' href='/web-design-principles/css/styles.css'/>
-    <link rel='stylesheet' href='/web-design-principles/css/projects-styles.css'/>
+    <link rel='stylesheet' href='/css/styles.css'/>
+    <link rel='stylesheet' href='/css/projects-styles.css'/>
   </head>
 
   <body>
@@ -28,7 +28,7 @@
 
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/web-design-principles/index.html"><img class='logo' src="/web-design-principles/images/rp.png"></a>
+        <a class="navbar-brand" href="/index.html"><img class='logo' src="/images/rp.png"></a>
   
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -40,19 +40,19 @@
           <ul class="navbar-nav">
             <!--All pages start with "/", meaning the top folder of your site-->
             <li class="nav-item">
-              <a class="nav-link" href="/web-design-principles/pages/about.html">About<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="/pages/about.html">About<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/web-design-principles/pages/skills.html">Skills</a>
+              <a class="nav-link" href="/pages/skills.html">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/web-design-principles/pages/projects.html">Projects</a>
+              <a class="nav-link active" href="/pages/projects.html">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/web-design-principles/pages/contact.html">Contact</a>
+              <a class="nav-link" href="/pages/contact.html">Contact</a>
             </li>
             <li class="nav-item resume">
-              <a class="nav-link resume-link" href="/web-design-principles/pages/REM_TECH-B.pdf" target="_blank">Resume</a>
+              <a class="nav-link resume-link" href="/pages/REM_TECH-B.pdf" target="_blank">Resume</a>
             </li>
           </ul>
   
@@ -69,114 +69,226 @@
 
         <div class="intro-projects">
           <h2 class="projects-h2">Some of my work</h2>
-          <p class="projects-p">Below are some of the projects I worked on while I was a student at Brigham Young University.</p>
-          <p>You can find here examples of databases,  data structures and patterns, web designs, algortihms...</p>
+          <p class="projects-p">Below are some of the projects I worked on while I was studying Software Engineering.</p>
+          <p>You can find here examples of design patterns, data structures, databases, algorithm and web designs...</p>
         </div>
 
         <div class="projects">
 
-          <div class="java project">
-            <h2 class="project-h2">Lab1: very first website</h2>
+          <div class="project">
+            <h2 class="project-h2">Gene Sequence</h2>
             <p>
-              Website that uses HTML, CSS, and JavaScript.
-              The site uses JavaScript and fetch to get data from an external API
+              I implemented two versions of a dynamic programming algorithm for computing the minimal cost of aligning gene sequences and extracting an optimal alignment.
             </p>
-            <a class='java-link' href='https://lab1.rembrandpardo.com/' target="_blank">
-              <i class="fas fa-palette"></i>
+            <a class='hyperlink-tag' href='https://github.com/Thebatman7/gene_sequencing' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
             </a>
           </div>
 
-          <div class="aws project">
-            <h2 class="project-h2">Lab2: Weather app project</h2>
+          <div class="project">
+            <h2 class="project-h2">A website for your bucketlist</h2>
             <p>
-              Description coming soon... 
+              A single page web app for storing pictures of your travel experiences 
+              and places on your bucket-list, built with Node.js, MonogoDB, CSS, and Javascript.
             </p>
-            <a class='aws-link' href='https://lab2.rembrandpardo.com/' target="_blank">
-              <i class="fas fa-calendar-alt"></i>
+            <a class='hyperlink-tag' href='https://lab1.rembrandpardo.com/' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
             </a>
           </div>
 
-          <div class="project database">
-            <h2 class="project-h2">Creative project: a meme factory</h2>
+          <div class="project">
+            <h2 class="project-h2">Decorator</h2>
             <p>
-              I was introduced to Java after I learned about C++ and I think it has become one of my favorite programming langauges.
-              This statically-typed, object-oriented langauge seemed very intuitive to me.
-              I really like the feature that an object's own procedures can access and often modify the data fields of itself. 
-
-              Api rest project cp2
+              Decorator design pattern that lets attach new behaviors to objects
+              by placing these objects inside special wrapper objects that contain the behaviors.
             </p>
-            <a class='database-link' href='https://cp2.rembrandpardo.com/' target="_blank">
-              <i class="fas fa-database"></i>
+            <a class='hyperlink-tag' href='https://github.com/Thebatman7/decorator_design_pattern' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
             </a>
           </div>
 
-          <div class="project microsoft">
-            <h2 class="project-h2">Api rest project for commic</h2>
+          <div class="project">
+            <h2 class="project-h2">Traveling Salesman</h2>
             <p>
-              I was introduced to Java after I learned about C++ and I think it has become one of my favorite programming langauges.
-              This statically-typed, object-oriented langauge seemed very intuitive to me.
-              I really like the feature that an object's own procedures can access and often modify the data fields of itself. 
-
-              lab3 project
+              Implements of branch-and-bound algorithm to find solutions to the traveling salesperson problem (TSP).
+              This algorithm consists of a systematic enumeration of candidate solutions by means of state space search.
             </p>
-            <a class='microsoft-link' href='https://lab3.rembrandpardo.com/' target="_blank">
-              <i class="fab fa-microsoft"></i>
+            <a class='hyperlink-tag' href='https://github.com/Thebatman7/traveling_salesperson' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
             </a>
           </div>
           
-          <div class="project microsoft">
-            <h2 class="project-h2">Mother earth project: website for ordering food</h2>
+          <div class="project">
+            <h2 class="project-h2">US weather forecast</h2>
             <p>
-              I was introduced to Java after I learned about C++ and I think it has become one of my favorite programming langauges.
-              This statically-typed, object-oriented langauge seemed very intuitive to me.
-              I really like the feature that an object's own procedures can access and often modify the data fields of itself. 
-
-              lab3b project
+              Weather forecast of any city in the US for the next 5 days.
+              The website uses an API that collects and processes weather data from different global 
+              and local weather models, satellites, radars and a vast network of weather stations.
             </p>
-            <a class='microsoft-link' href='https://motherearth.rembrandpardo.com/' target="_blank">
-              <i class="fab fa-microsoft"></i>
+            <a class='hyperlink-tag' href='https://lab1.rembrandpardo.com/' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
             </a>
           </div>
 
-          <div class="project microsoft">
-            <h2 class="project-h2">Travel app project first version</h2>
+          <div class="project">
+            <h2 class="project-h2">Proxy Design</h2>
             <p>
-              I was introduced to Java after I learned about C++ and I think it has become one of my favorite programming langauges.
-              This statically-typed, object-oriented langauge seemed very intuitive to me.
-              I really like the feature that an object's own procedures can access and often modify the data fields of itself. 
-
-              cp3 project different cities and pictures
+              Implementation of the proxy structure design pattern.
+              The proxy object hides the original object and controls access to it. 
+              We can use proxy when we may want to use a class that can perform as an interface to something else.
             </p>
-            <a class='microsoft-link' href='https://cp3.rembrandpardo.com/' target="_blank">
-              <i class="fab fa-microsoft"></i>
+            <a class='hyperlink-tag' href='https://github.com/Thebatman7/proxy_design_pattern' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
             </a>
           </div>
 
-          <div class="project microsoft">
-            <h2 class="project-h2">mongo database project</h2>
+          <div class="project">
+            <h2 class="project-h2">Dyskstra</h2>
             <p>
-              I was introduced to Java after I learned about C++ and I think it has become one of my favorite programming langauges.
-              This statically-typed, object-oriented langauge seemed very intuitive to me.
-              I really like the feature that an object's own procedures can access and often modify the data fields of itself. 
-
-              lab4 project Museum of ordanary things
+              Implementation of Dyskstra’s algorithm which is used for finding the 
+              shortest paths or minimum cost between nodes in a graph, which may represent, for example, road networks.
             </p>
-            <a class='microsoft-link' href='https://museum.rembrandpardo.com/' target="_blank">
-              <i class="fab fa-microsoft"></i>
+            <a class='hyperlink-tag' href='https://github.com/Thebatman7/networking_routing' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
             </a>
           </div>
 
-          <div class="project microsoft">
-            <h2 class="project-h2">All concepts learned together</h2>
+          <div class="project">
+            <h2 class="project-h2">Convex hull</h2>
             <p>
-              I was introduced to Java after I learned about C++ and I think it has become one of my favorite programming langauges.
-              This statically-typed, object-oriented langauge seemed very intuitive to me.
-              I really like the feature that an object's own procedures can access and often modify the data fields of itself. 
-
-              cp4 project Museum of ordanary things
+              Divide-and-conquer algorithm which recursively breaks down
+              a problem into two or more sub-problems of the same or related type, 
+              until these become simple enough to be solved directly.
             </p>
-            <a class='microsoft-link' href='https://cp4.rembrandpardo.com/' target="_blank">
-              <i class="fab fa-microsoft"></i>
+            <a class='hyperlink-tag' href='https://github.com/Thebatman7/convex_hull' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h2 class="project-h2">Email sender</h2>
+            <p>
+              An AWS Lambda function that sends email messages using the AWS Simple Email Service (SES).
+              It also uses an AWS IAM role that provides the Lambda function the security permissions it requires.
+            </p>
+            <a class='hyperlink-tag' href='https://github.com/Thebatman7/aws_lambda' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h2 class="project-h2">Mother Earth products</h2>
+            <p>
+              A straightforward website that shows a simple way a customer
+              could search and buy items from a online store.
+            </p> 
+            <a class='hyperlink-tag' href='https://motherearth.rembrandpardo.com/' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h2 class="project-h2">Factory</h2>
+            <p>
+              Implementation of Factory design pattern. This works around
+              a super-factory object which creates other objects when need it.
+            </p>
+            <a class='hyperlink-tag' href='https://github.com/Thebatman7/abstract_factory_design_pattern' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
+            </a>
+          </div>
+          
+          <div class="project">
+            <h2 class="project-h2">Programming memes</h2>
+            <p>
+              A website that shows funny and interesting memes about programming. 
+              The site uses an API to get the data.
+            </p>
+            <a class='hyperlink-tag' href='https://cp2.rembrandpardo.com/' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h2 class="project-h2">Social networking app</h2>
+            <p>
+              A simple android app project. This social media app allows users to follow each other, post comments, updates,
+              and be able to see followees' posts. Built with Java, AWS Lambda, DynamoDB, and Android.
+            </p>
+            <a class='hyperlink-tag' href='https://github.com/Thebatman7/app_project' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h2 class="project-h2">Family Map</h2>
+            <p>
+              Application that provides a geographical view into a family history.
+              App was built using Object-Oriented Design, User Interface (UI) Programming, 
+              Native Android Development, and external API services.
+            </p>
+            <a class='hyperlink-tag' href='https://github.com/Thebatman7/family_map' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h2 class="project-h2">Fermat and Miller-Rabin tests</h2>
+            <p>
+              Implementation of algorithms for modular arithmetic
+              (a system of arithmetic for integers, where numbers "wrap around" when reaching a 
+              certain value, called the modulus) and randomized algorithms.
+            </p>
+            <a class='hyperlink-tag' href='https://github.com/Thebatman7/fermat_miller_rabin' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h2 class="project-h2">XKCD</h2>
+            <p>
+              A website that gets simple comics that can get reviewed and rated by the users.
+            </p>
+            <a class='hyperlink-tag' href='https://lab3.rembrandpardo.com/' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h2 class="project-h2">Museum of Objects</h2>
+            <p>
+              A website where users can post, delete, and edit pictures stored in a database.
+            </p>
+            <a class='hyperlink-tag' href='https://museum.rembrandpardo.com/' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h2 class="project-h2">Photography Gallery</h2>
+            <p>
+              One of the very first websites I created. Built with only HTML and CSS files.
+            </p>
+            <a class='hyperlink-tag' href='https://lab1.rembrandpardo.com/' target="_blank">
+              <i class="fas fa-folder fa-hover-hidden"></i>
+              <i class="fas fa-folder-open fa-hover-show"></i>
             </a>
           </div>
 
@@ -200,7 +312,7 @@
           </a>
         </div>
         <div class='footer-item footer-three'>
-          <a class='git-link' href='https://github.com/Thebatman7/cs260-source/tree/lab1/web-design-principles' target="_blank">
+          <a class='git-link' href='https://github.com/Thebatman7' target="_blank">
             <i class="fab fa-github"></i>
           </a>
         </div>

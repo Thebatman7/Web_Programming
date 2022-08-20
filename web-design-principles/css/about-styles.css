@@ -71,7 +71,7 @@ section:last-child {
 
 .about-me p {
   text-align: justify;
-  width: 80%;
+  width: 89%;
   max-width: 900px;
   font-size: 90%;
 }
@@ -281,12 +281,25 @@ section:last-child {
     width: 84.7%;
   }
 
-  .hobby p {
-    padding-top: 1.5em;
-    font-size: 0.9em;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 1em;
+  .hobby {
+    border: 1px solid #1bc0b225;
+    border-radius: 3px;
+    width: 42vh;
+    height: 34vh;
+    margin: 1vh;
+    box-sizing: border-box;
+  }
+  
+  .hobby.spotify {
+    height: 20vh;
+  }
+
+  .hobby.imdb {
+    height: 24vh;
+  }
+
+  .hobby.quote {
+    height: 24vh;
   }
 
   .crest img {
@@ -295,6 +308,7 @@ section:last-child {
     height: 20em;
     width: 15em;
   }
+
 }
 
 /* Tablet Styles */
