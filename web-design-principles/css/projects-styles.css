@@ -96,27 +96,27 @@ section:last-child {
 }
 
 .projects h2 {
-  text-align: start;
-  font-weight: 450;
+  text-align: center;
+  font-weight: 670;
   line-height: 0.8;
   font-size: 2.6em;
   font-size: 90%;
 }
 
 .project-h2 {
-  font-weight: 450;
   line-height: 0.8;
   font-size: 2.6em;
   font-size: 90%;
-  color: #1bc0b2;
+  color: #ccd6f6;
   background-color: #071830;
   margin-top: 0.7em;
- 
 }
 
-.project h2 {
-  text-align: center;
+/* this is how we change color of a h2 inside of a div when hovering over the div */
+.project:hover h2 { 
+  color: #1ba196;
 }
+
 
 .fab,
 .fas {
@@ -165,7 +165,18 @@ section:last-child {
 .fa-github:hover,
 .fa-twitter:hover,
 .fa-facebook:hover {
-  color:rgb(27, 192, 178)
+  color:rgb(27, 192, 178);
+}
+
+
+/* this is how we "change" font awesome icons */
+* > .fa-hover-show,
+*:hover > .fa-hover-hidden {
+  display: none;
+}
+*:hover > .fa-hover-show {
+  display: inline-block;
+  color:#1bc0b2;
 }
 
 

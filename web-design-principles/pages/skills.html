@@ -17,8 +17,8 @@
     <meta charset='UTF-8'/>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
     <title>Rembrand Pardo</title>
-    <link rel='stylesheet' href='/web-design-principles/css/styles.css'/>
-    <link rel='stylesheet' href='/web-design-principles/css/skills-styles.css'/>
+    <link rel='stylesheet' href='/css/styles.css'/>
+    <link rel='stylesheet' href='/css/skills-styles.css'/>
   </head>
 
   <body>
@@ -28,7 +28,7 @@
 
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/web-design-principles/index.html"><img class='logo' src="/web-design-principles/images/rp.png"></a>
+        <a class="navbar-brand" href="/index.html"><img class='logo' src="/images/rp.png"></a>
   
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -40,19 +40,19 @@
           <ul class="navbar-nav">
             <!--All pages start with "/", meaning the top folder of your site-->
             <li class="nav-item">
-              <a class="nav-link" href="/web-design-principles/pages/about.html">About<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="/pages/about.html">About<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/web-design-principles/pages/skills.html">Skills</a>
+              <a class="nav-link active" href="/pages/skills.html">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/web-design-principles/pages/projects.html">Projects</a>
+              <a class="nav-link" href="/pages/projects.html">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/web-design-principles//pages/contact.html">Contact</a>
+              <a class="nav-link" href="/pages/contact.html">Contact</a>
             </li>
             <li class="nav-item resume">
-              <a class="nav-link resume-link" href="/web-design-principles/pages/REM_TECH-B.pdf" target="_blank">Resume</a>
+              <a class="nav-link resume-link" href="/pages/REM_TECH-B.pdf" target="_blank">Resume</a>
             </li>
           </ul>
   
@@ -69,71 +69,95 @@
 
         <div class="intro-skills">
           <h2 class="skills-h2">My Hard and Soft Skills</h2>
-          <p class="skills-p">Below are some of my skills and few technologies I've been working with.</p>
-          <p>I am always looking to learn more.</p>
+          <p class="skills-p">Below are some of my skills and technologies I've been working with.</p>
+          <p>I am always eager to learn more.</p>
         </div>
 
         <div class="skills"> 
           <div class="skill java">
             <p>
-              I was introduced to Java after I learned about C++ and I think it has become one of my favorite programming langauges.
-              This statically-typed, object-oriented langauge seemed very intuitive to me.
-              I really like the feature that an object's own procedures can access and often modify the data fields of itself. 
+              Java is my favorite programming language. This general-purpose, concurrent, strongly typed, class-based object-oriented language 
+              is popular for a reason. I love that being a strong data typing enforces a rigorous set of rules to ensure consistency of results.
+              I have played a lot with Java and one project that I really enjoyed working on was an application that provides a geographical view into a family history.
             </p>
-            <a class='java-link' href=# target="_blank">
+            <a class='java-link' href='https://github.com/Thebatman7/family_map' target="_blank">
               <i class="fab fa-java"></i>
             </a>
           </div>
 
           <div class="skill aws">
             <p>
-              I was introduced to Java after I learned about C++ and I think it has become one of my favorite programming langauges.
-              This statically-typed, object-oriented langauge seemed very intuitive to me.
-              I really like the feature that an object's own procedures can access and often modify the data fields of itself. 
+              I found very impressive the many powerful Amazon Web Services cloud-based products.
+              I particularly enjoyed working with AWS Lambda and DynamoDB services. The serverless compute service that 
+              runs code in response to events and automatically manages the underlying resources helped me manage scalability easily, and the fully managed proprietary NoSQL database service that supports key–value kept data organized.
             </p>
-            <a class='aws-link' href=# target="_blank">
+            <a class='aws-link' href='https://github.com/Thebatman7/app_project' target="_blank">
               <i class="fab fa-aws"></i>
+            </a>
+          </div>
+
+          <div class="skill webcode">
+            <p>
+              I fell in love with the artistic side of web programming. I think HTML, CSS, and Javascript are very powerful 
+              languages with which one can create aesthetically pleasing websites. 
+              That is what motivated me to create my own. I wanted to create something efficient and pleasing to the eye with code.
+              It is amazing to think that amazing and wonderful sites can be built with just a couple of files. 
+            </p>
+            <a class='webcode-link' href='https://github.com/Thebatman7/cs260-source/tree/lab1/responsive-design' target="_blank">
+              <i class="fas fa-code"></i>
+            </a>
+          </div>
+
+          <div class="skill python">
+            <p>
+              It was fascinating to work with this high-level, dynamically-typed, general-purpose programming language. Although, I still prefer to work with Java, 
+              I was very impressed by what Pyton can do. Implementing a prime number test based on Fermat's little theorem and the Miller-Rabin conditions in Python was stimulating.
+            </p>
+            <a class='python-link' href='https://github.com/Thebatman7/fermat_miller_rabin' target="_blank">
+              <i class="fab fa-python"></i>
             </a>
           </div>
 
           <div class="skill database">
             <p>
-              I was introduced to Java after I learned about C++ and I think it has become one of my favorite programming langauges.
-              This statically-typed, object-oriented langauge seemed very intuitive to me.
-              I really like the feature that an object's own procedures can access and often modify the data fields of itself. 
+              Out of the databases I worked with, the source-available cross-platform document-oriented database program, MongoDB, was the easiest to set up.
+              MongoDB uses documents which are composed of field and value pairs, similar to JSON objects, and these can have a 
+              flexible schema which means not all documents need to have the same structure. 
             </p>
-            <a class='database-link' href=# target="_blank">
+            <a class='database-link' href='https://github.com/Thebatman7/cs260-source/tree/lab1/mongoDB' target="_blank">
               <i class="fas fa-database"></i>
-            </a>
-          </div>
-
-          <div class="skill microsoft">
-            <p>
-              I was introduced to Java after I learned about C++ and I think it has become one of my favorite programming langauges.
-              This statically-typed, object-oriented langauge seemed very intuitive to me.
-              I really like the feature that an object's own procedures can access and often modify the data fields of itself. 
-            </p>
-            <a class='microsoft-link' href=# target="_blank">
-              <i class="fab fa-microsoft"></i>
             </a>
           </div>
 
           <div class="skill git">
             <p>
-              I was introduced to Java after I learned about C++ and I think it has become one of my favorite programming langauges.
-              This statically-typed, object-oriented langauge seemed very intuitive to me.
-              I really like the feature that an object's own procedures can access and often modify the data fields of itself. 
+              C++ was the first programming language I learned when I started studying software engineering.
+              This language introduced me to encapsulation, polymorphism, abstraction, and inheritance, 
+              the four primary features of my favorite type of programming, Object-Oriented. 
             </p>
-            <a class='git-link' href=# target="_blank">
-              <i class="fab fa-git-square"></i>
+            <a class='git-link' href='https://github.com/Thebatman7/c_plus_plus' target="_blank">
+              <i class="fas fa-file"></i>
+            </a>
+          </div>
+
+          
+          <div class="skill microsoft">
+            <p>
+              Learning about algorithm designs was challenging and exciting. It is fascinating to 
+              know that the order of a series of steps can create efficient solutions to complicated 
+              problems. One of the problems that I had fun working on was a convex hull problem. For this I used a divide-and-conquer algorithm design to efficiently find the convex hull of a set of points. 
+            </p>
+            <a class='microsoft-link' href='https://github.com/Thebatman7/convex_hull' target="_blank">
+              <i class="fab fa-connectdevelop"></i>
             </a>
           </div>
 
           <div class="skill pattern">
             <p>
-              I was introduced to Java after I learned about C++ and I think it has become one of my favorite programming langauges.
-              This statically-typed, object-oriented langauge seemed very intuitive to me.
-              I really like the feature that an object's own procedures can access and often modify the data fields of itself. 
+              One of my favorite things I enjoyed learning about was software design patterns. 
+              These design patterns are general, reusable solutions to commonly occurring problems 
+              within a given context in software design. These are very useful and powerful. 
+              I particularly had fun with the factory pattern. This design pattern creates a "factory" which creates objects.
             </p>
             <a class='pattern-link' href=# target="_blank">
               <i class="fas fa-sitemap"></i>
@@ -142,48 +166,59 @@
          
           <div class="skill language">
             <p>
-              I was introduced to Java after I learned about C++ and I think it has become one of my favorite programming langauges.
-              This statically-typed, object-oriented langauge seemed very intuitive to me.
-              I really like the feature that an object's own procedures can access and often modify the data fields of itself. 
+              I love how easy it is to build user interfaces and sinle-page applications with Vue.js. This open-source model–view–viewmodel 
+              front-end JavaScript framework helps keep files organized and code clear. 
+              This framework and ecosystem that covers most of the common features needed in frontend development makes designs flexible and incrementally adoptable. 
             </p>
-            <a class='language-link' href=# target="_blank">
-              <i class="fas fa-language"></i>
-            </a>
-          </div>
-
-          <div class="skill webcode">
-            <p>
-              I was introduced to Java after I learned about C++ and I think it has become one of my favorite programming langauges.
-              This statically-typed, object-oriented langauge seemed very intuitive to me.
-              I really like the feature that an object's own procedures can access and often modify the data fields of itself. 
-            </p>
-            <a class='webcode-link' href=# target="_blank">
-              <i class="fas fa-code"></i>
-            </a>
-          </div>
-
-          <div class="skill python">
-            <p>
-              I was introduced to Java after I learned about C++ and I think it has become one of my favorite programming langauges.
-              This statically-typed, object-oriented langauge seemed very intuitive to me.
-              I really like the feature that an object's own procedures can access and often modify the data fields of itself. 
-            </p>
-            <a class='python-link' href=# target="_blank">
-              <i class="fab fa-python"></i>
+            <a class='language-link' href='https://github.com/Thebatman7/authenticating-users' target="_blank">
+              <i class="fab fa-vuejs"></i>
             </a>
           </div>
 
           <div class="skill file">
             <p>
-              I was introduced to Java after I learned about C++ and I think it has become one of my favorite programming langauges.
-              This statically-typed, object-oriented langauge seemed very intuitive to me.
-              I really like the feature that an object's own procedures can access and often modify the data fields of itself. 
+              I've always loved technology and business. As I learned about both, I became more and more impressed by Microsft.
+              When I was getting my Associate's degree in business, I became very proficient with the powerful Microsoft Office.
+              Now I am falling in love with Visual Studio, Visual Code, Azura, and all the many other Microsoft tools for programmers.
             </p>
-            <a class='file-link' href=# target="_blank">
-              <i class="fas fa-file-code"></i>
+            <a class='file-link' href='https://visualstudio.microsoft.com/' target="_blank">
+              <i class="fab fa-microsoft"></i>
+            </a>
+          </div>
+
+          <div class="skill file">
+            <p>
+              Ever since I started to study programming I have learned about Linux and the power of the Linux terminal.
+              You can do everything including, creating and removing files and directory, browsing the web, setting up a network connection,
+              and monitoring system performance using the command-line terminal. And over 90% of the fastest computers in the world use Linux. 
+            </p>
+            <a class='file-link' href='https://github.com/Thebatman7/cs260-source/blob/lab1/node-express-vue-todo/front-end/README.md' target="_blank">
+              <i class="fab fa-linux"></i>
+            </a>
+          </div>
+
+          <div class="skill file">
+            <p>
+              Being raised in Barcelona, Spain can be hard sometimes because we have multiple official languages.
+              Two of the them are Catalan and Spanish. Knowing those languages has become a very useful skill, especially for business and programming. 
+              Being multilingual helps you think differently, get more programming acumen, and understand users that speak languages other than English more.
+            </p>
+            <a class='file-link' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3583091/' target="_blank">
+              <i class="fas fa-language"></i>
             </a>
           </div>
           
+          <div class="skill file">
+            <p>
+              Acting is a complicated art and a wonderful one. I like to apply what I've learned with acting in all the aspects of my life because acting is not pretending to be someone else;
+              it is actually becoming, being the character. It can require control over feelings, emotions, and body.
+              This can be useful when you are under pressure or things do not work well, or when you find a stubborn bug.
+            </p>
+            <a class='file-link' href='https://youtu.be/GsZCjeAcoak' target="_blank">
+              <i class="fas fa-theater-masks"></i>
+            </a>
+          </div>
+
         </div>
       </section>
 
@@ -207,7 +242,7 @@
           </a>
         </div>
         <div class='footer-item footer-three'>
-          <a class='git-link' href='https://github.com/Thebatman7/cs260-source/tree/lab1/web-design-principles' target="_blank">
+          <a class='git-link' href='https://github.com/Thebatman7' target="_blank">
             <!-- <ion-icon name="logo-github"></ion-icon> -->
             <i class="fab fa-github"></i>
           </a>

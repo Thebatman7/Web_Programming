@@ -144,8 +144,7 @@
   margin: 20px 0px 0px;
   align-self: center;
   max-width: 900px;
-  width: 70%;
-
+  width: 67%;
   font-size: 90%;
   text-align: justify;
 }
@@ -391,7 +390,7 @@ The browser only pays attention to those rules if the condition is met.
     left: 10%;
   }
   .rempar {
-    left: 17.5%;
+    left: 15.7%;
   }
   .webs {
     display:none;
