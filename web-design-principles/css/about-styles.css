@@ -146,6 +146,13 @@ section:last-child {
   width: 100%;
   position: relative;
 }
+.hobby.spotify {
+  height: 10em;
+}
+.hobby.quote {
+  height: 10em;
+}
+
 
 .spotify p {
   margin-bottom: 0.5em;
@@ -242,6 +249,10 @@ section:last-child {
 } */
 
 @media (orientation: portrait) {
+  body {
+    background-color: #51aa5e;
+  }
+
   main {
     width: auto;
     /* flex-direction: column; */
@@ -291,15 +302,15 @@ section:last-child {
   }
   
   .hobby.spotify {
-    height: 20vh;
+    height: 28vh;
   }
 
   .hobby.imdb {
-    height: 24vh;
+    height: 35vh;
   }
 
   .hobby.quote {
-    height: 24vh;
+    height: 28vh;
   }
 
   .crest img {
@@ -323,5 +334,21 @@ section:last-child {
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 1em;
+  }
+
+  .hobby.youtube {
+    height: 24vh;
+  }
+
+  .hobby.spotify {
+    height: 18vh;
+  }
+
+  .hobby.imdb {
+    height: 20vh;
+  }
+
+  .hobby.quote {
+    height: 19vh;
   }
 }
